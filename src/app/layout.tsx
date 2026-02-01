@@ -1,8 +1,12 @@
 import Nav from "../components/Nav/Nav";
 import Footer from "../components/Footer/Footer";
 import Header from "@/components/Header/Header";
-import "./globals.css";
 import Sobre from "@/components/Sobre/Sobre";
+import Projetos from "@/components/Projetos/Projetos";
+import Contato from "@/components/Contato/Contato";
+import "./globals.css";
+
+
 
 
 export default function RootLayout({
@@ -16,7 +20,8 @@ export default function RootLayout({
         <Nav />
         <Header />
         <Sobre />
-
+        <Projetos />
+        <Contato />
       </body>
     </html>
   );

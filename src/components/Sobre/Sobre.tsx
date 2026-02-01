@@ -30,13 +30,13 @@ export default function Sobre() {
 
             {/* Card */}
             <div className="flex items-center gap-2 border-2 border-blue-500 px-4 py-2 rounded-md hover:bg-blue-500 hover:text-white transition shadow-sm">
-              <img src="/bolt.png" alt="Design Moderno" className="w-6 h-6" />
+              <img src="/paint.png" alt="Design Moderno" className="w-6 h-6" />
               <span className="text-sm font-medium">Design Moderno</span>
             </div>
 
             {/* Card */}
             <div className="flex items-center gap-2 border-2 border-blue-500 px-4 py-2 rounded-md hover:bg-blue-500 hover:text-white transition shadow-sm">
-              <img src="/paint.png" alt="Performance" className="w-6 h-6" />
+              <img src="/bolt.png" alt="Performance" className="w-6 h-6" />
               <span className="text-sm font-medium">Performance</span>
             </div>
           </div>
