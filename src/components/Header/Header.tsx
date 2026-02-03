@@ -3,7 +3,7 @@
 // components/Header.tsx
 export default function Header() {
   return (
-    <header className="w-full h-screen bg-linear-to-r from-[#010408] to-[#162542] flex flex-col justify-center items-center px-6 pt-30 text-white text-center">
+    <header id="header" className="w-full h-screen bg-linear-to-r from-[#010408] to-[#162542] flex flex-col justify-center items-center px-6 pt-30 text-white text-center">
       <button className="mb-6 text-blue-500 text-sm border border-blue-500 rounded-3xl p-2 px-4.5
         hover:bg-white/80 hover:border-transparent transition font-bold">
         Disponível para projetos

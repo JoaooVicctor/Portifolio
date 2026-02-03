@@ -22,6 +22,7 @@ export default function RootLayout({
         <Sobre />
         <Projetos />
         <Contato />
+        <Footer />
       </body>
     </html>
   );

@@ -1,6 +1,6 @@
 export default function Projetos() {
   return (
-    <section className="bg-[#0d0d16] text-white w-full py-20 px-6">
+    <section id="projetos" className="bg-[#0d0d16] text-white w-full py-20 px-6">
       <div className="text-center mb-12">
         <h1 className="text-5xl border-b-4 p-2.5 border-blue-500 font-bold inline-block">
           Meus <span className="text-blue-500">Projetos</span>

@@ -1,6 +1,6 @@
 export default function Sobre() {
   return (
-    <header className="w-full min-h-screen bg-linear-to-r from-[#010408] to-[#162542] flex flex-col items-center px-6 text-white text-center pt-55">
+    <section id="sobre" className="w-full min-h-screen bg-linear-to-r from-[#010408] to-[#162542] flex flex-col items-center px-6 text-white text-center pt-55 scroll-mt-20">
       
       <h1 className="text-5xl border-b-4 p-2.5 border-blue-500 mb-10 sm:text-5xl font-bold -mt-20">
         Sobre <span className="text-blue-500">Mim</span>
@@ -86,6 +86,6 @@ export default function Sobre() {
           </ul>
         </div>
       </section>
-    </header>
+    </section>
   )
 }
