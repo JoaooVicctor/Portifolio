@@ -1,15 +1,16 @@
 export default function Sobre() {
   return (
-    <section id="sobre" className="w-full min-h-screen bg-linear-to-r from-[#010408] to-[#162542] flex flex-col items-center px-6 text-white text-center pt-55 scroll-mt-20">
+    
+    <section id="sobre" className="w-full min-h-screen bg-linear-to-r from-[#010408] to-[#162542] flex flex-col items-center px-6 text-white text-center pt-55 ">
       
-      <h1 className="text-5xl border-b-4 p-2.5 border-blue-500 mb-10 sm:text-5xl font-bold -mt-20">
+      <h1 data-aos="fade-up" className="text-5xl border-b-4 p-2.5 border-blue-500 mb-10 sm:text-5xl font-bold -mt-20">
         Sobre <span className="text-blue-500">Mim</span>
       </h1>
 
       <section className="w-full max-w-6xl flex flex-col md:flex-row gap-10 mt-10">
         
         {/* Primeira div - lado esquerdo */}
-        <div className="flex-1 border-2 border-blue-500 p-8 rounded-xl text-left flex flex-col justify-between bg-[#0f172a] shadow-lg">
+        <div data-aos="fade-right" className="flex-1 border-2 border-blue-500 p-8 rounded-xl text-left flex flex-col justify-between bg-[#0f172a] shadow-lg">
           
           {/* Texto sobre mim */}
           <p className="mb-8 text leading-relaxed font-light">
@@ -43,7 +44,7 @@ export default function Sobre() {
         </div>
 
         {/* Segunda div - lado direito */}
-        <div className="flex-1 border-2 border-blue-500 p-6 rounded-lg text-left bg-[#0f172a] shadow-lg">
+        <div data-aos="fade-left" className="flex-1 border-2 border-blue-500 p-6 rounded-lg text-left bg-[#0f172a] shadow-lg">
           <h2 className="text-3xl font-bold mb-6 text-blue-400">🚀 Habilidades Técnicas</h2>
 
           <ul className="grid grid-cols-2 sm:grid-cols-3 gap-4">
@@ -87,5 +88,6 @@ export default function Sobre() {
         </div>
       </section>
     </section>
+    
   )
 }

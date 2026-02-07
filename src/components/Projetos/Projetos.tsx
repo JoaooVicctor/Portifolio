@@ -2,7 +2,7 @@ export default function Projetos() {
   return (
     <section id="projetos" className="bg-[#0d0d16] text-white w-full py-20 px-6">
       <div className="text-center mb-12">
-        <h1 className="text-5xl border-b-4 p-2.5 border-blue-500 font-bold inline-block">
+        <h1 data-aos="fade-up" className="text-5xl border-b-4 p-2.5 border-blue-500 font-bold inline-block">
           Meus <span className="text-blue-500">Projetos</span>
         </h1>
       </div>
@@ -12,7 +12,7 @@ export default function Projetos() {
         {/* Projeto 1 */}
         <div className="bg-[#0f172a] rounded-xl shadow-lg overflow-hidden flex flex-col border border-transparent transition-all duration-300 hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/40">
           <img src="/calculadora.jpg" alt="Projeto 1" className="w-full h-48 object-cover" />
-          <div className="p-7 flex flex-col grow">
+          <div data-aos="fade-right" className="p-7 flex flex-col grow">
             <h2 className="text-xl font-bold mb-2 text-blue-500">Calculadora</h2>
             <p className="text-sm mb-3">Calculadora simples e funcional.</p>
             <p className="text-xs mb-5 text-gray-300">Ferramentas: Next, Tailwind e TypeScript</p>
@@ -30,7 +30,7 @@ export default function Projetos() {
         {/* Projeto 2 */}
         <div className="bg-[#0f172a] rounded-xl shadow-lg overflow-hidden flex flex-col border border-transparent transition-all duration-300 hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/40">
           <img src="/cripto.jpeg" alt="Projeto 2" className="w-full h-48 object-cover" />
-          <div className="p-7 flex flex-col grow">
+          <div data-aos="fade-right" className="p-7 flex flex-col grow">
             <h2 className="text-xl font-bold mb-2 text-blue-500">Cripto Moedas</h2>
             <p className="text-sm mb-3">Carteira de cripto moedas em tempo real. </p>
             <p className="text-xs mb-5 text-gray-300">Ferramentas: React.js, TypeScript, APIs, Router e Css</p>
@@ -46,9 +46,9 @@ export default function Projetos() {
         </div>
 
         {/* Projeto 3 */}
-        <div className="bg-[#0f172a] rounded-xl shadow-lg overflow-hidden flex flex-col border border-transparent transition-all duration-300 hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/40">
+        <div className="bg-[#0f172a] group rounded-xl shadow-lg overflow-hidden flex flex-col border border-transparent transition-all duration-300 hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/40">
           <img src="/frases.jpeg" alt="Projeto 3" className="w-full h-48 object-cover" />
-          <div className="p-7 flex flex-col grow">
+          <div data-aos="fade-right" className="p-7 flex flex-col grow">
             <h2 className="text-xl font-bold mb-2 text-blue-500">Gerador de Frases</h2>
             <p className="text-sm mb-3">Gerador de frases motivacionais e Bom dia.</p>
             <p className="text-xs mb-5 text-gray-300">Ferramentas: React.js, JavaScript, TypeScript, HTML e CSS</p>

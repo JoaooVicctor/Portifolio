@@ -1,5 +1,10 @@
-// app/page.tsx
-export const metadata = {
+
+
+import "aos/dist/aos.css"; // importa o CSS do AOS
+import "./globals.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
   title: "Meu Portifólio",
   description: "Descrição da aplicação",
   icons: {
@@ -7,6 +12,10 @@ export const metadata = {
   },
 };
 
-export default function HomePage() {
-  return <h1>Bem-vindo à minha aplicação!</h1>;
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="pt-BR">
+      <body>{children}</body>
+    </html>
+  );
 }
