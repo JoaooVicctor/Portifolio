@@ -2,7 +2,7 @@ export default function Contato() {
   return (
     <section
       id="contato"
-      className="w-full bg-gradient-to-r from-[#010408] to-[#162542] flex flex-col items-center px-6 text-white text-center py-16 overflow-x-hidden"
+      className="w-full bg-linear-to-r from-[#010408] to-[#162542] flex flex-col items-center px-6 text-white text-center py-16 overflow-x-hidden"
     >
       <h1 data-aos="fade-up" className="text-4xl sm:text-5xl border-b-4 p-2 border-blue-500 mb-8 font-bold">
         Vamos <span className="text-blue-500">Conversar?</span>
@@ -18,7 +18,7 @@ export default function Contato() {
         {/* WhatsApp */}
         <a data-aos="flip-left"
           className="flex w-full sm:w-52 h-12 sm:h-14 justify-center items-center gap-3 font-bold rounded-lg px-4 
-          bg-gradient-to-r from-green-400 to-green-600 
+          bg-linear-to-r from-green-400 to-green-600 
           hover:scale-105 hover:brightness-110 transition-all duration-300"
           href="https://wa.me/5599992289887?text=Ol%C3%A1%20Jo%C3%A3o%20Victor%2C%20gostaria%20de%20contratar%20seus%20servi%C3%A7os.%20Podemos%20conversar%3F"
           target="_blank"
